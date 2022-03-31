@@ -129,7 +129,7 @@ class BinaryNode<T>
     {
         int height = 0;
 
-        if (null != this.getData())
+        if (null != this)
         {
             // check to see if the left and right children of "this" node are
             // not equal to null in order to avoid dereferencing a null pointer.
@@ -139,7 +139,15 @@ class BinaryNode<T>
                 height = 1 + Math.max(this.getLeftChild().getHeight_binaryNodeMethod()
                                     , this.getRightChild().getHeight_binaryNodeMethod());
             }
-            else
+            else if (this.hasLeftChild())
+            {
+                height = 1 + this.getLeftChild().getHeight_binaryNodeMethod();
+            }
+            else if (this.hasRightChild())
+            {
+                height = 1 + this.getRightChild().getHeight_binaryNodeMethod();
+            }
+            else if (this.isLeaf())
             {
                 // return 1 for the height of this leaf node.
                 height = 1;
