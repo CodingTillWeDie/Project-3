@@ -7,17 +7,16 @@ class BinaryNodeTest {
         BinaryTree<String> aTree = new BinaryTree<>();
         createTree1(aTree);
         System.out.println("(binaryNode) post-order: ");
-        aTree.postorderTraverse_callBinaryNodeMethod();
+        aTree.getRootNode().postorderTraverse_binaryNodeMethod();
 
     }
 
     @Test
-    public int getHeight_binaryNodeMethod() {
+    public void getHeight_binaryNodeMethod() {
 
         BinaryTree<String> aTree = new BinaryTree<>();
         createTree1(aTree);
-        System.out.println("(BinaryNode) Height of tree is " + aTree.getHeight_callBinaryNodeMethod());
-        return 0;
+        System.out.println("(BinaryNode) Height of tree is " + aTree.getRootNode().getHeight_binaryNodeMethod());
     }
     public static void createTree1(BinaryTree<String> tree)
     {
