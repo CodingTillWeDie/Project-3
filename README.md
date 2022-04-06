@@ -1,4 +1,4 @@
 1. CS 2400 Project 3 done by Hemil Bhavsar, Kevin Kim, and Sean Abi Saab.
 2. Kevin Kim finished Task #1 by implementing the postorderTraverse(), postorderTraverse(BinaryNode<T> node), postorderTraverse_callBinaryNodeMethod(), and postorderTraverse_binaryNodeMethod() methods. He also finished Task #2 by implementing getHeight_callBinaryNodeMethod() in "BinaryTree.java" and getHeight_binaryNodeMethod() in "BinaryNode.java". Latly, he finished Task #3 by implementing getNumberOfNodes() and getNumberOfNodes(BinaryNode<T> node) methods in "BinaryTree.java". Sean Abi Saab finished Task #4 by implementing createTree2(BinaryTree<String> tree) method in "DriverBT.java". He also helped work on the test cases for the methods in BinaryNode.java and BinaryTree.java. Hemil Bhavsar helped work on the test cases for the methods in BinaryNode.java and BinaryTree.java.
 3. Here is the link to [the Javadoc's start page](https://codingtillwedie.github.io/Project-3/package-summary.html).
-4. Here is the link to [our screencast video]() on YouTube.
+4. Here is the link to [our screencast video](https://youtu.be/fSZDrBV9iTo) on YouTube.
